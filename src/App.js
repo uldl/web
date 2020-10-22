@@ -51,7 +51,7 @@ function SignUp() {
     <div className="SignUp">
       <div className="toHome">
         <Link to="/" id="linktext">
-          <img src="https://img.icons8.com/250/e0e0e0/back" id="small-img" />
+          <img src="https://img.icons8.com/250/e0e0e0/back" id="small-img" alt="back" />
         </Link>
       </div>
       <div className="centered">
@@ -93,7 +93,7 @@ function SignIn() {
     <div className="SignIn">
       <div className="toHome">
         <Link to="/" id="linktext">
-          <img src="https://img.icons8.com/250/e0e0e0/back" id="small-img" />
+          <img src="https://img.icons8.com/250/e0e0e0/back" id="small-img" alt="back" />
         </Link>
       </div>
       <div className="centered">
