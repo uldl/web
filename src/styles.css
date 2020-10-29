@@ -13,9 +13,26 @@
   transform: translate(-50%, -50%);
 }
 
-#title {
-  font-size: 5rem;
-  font-weight: 800;
+@media only screen and (max-width: 800px) {
+  #title {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #title {
+    font-size: 6rem;
+    font-weight: 800;
+  }
+}
+
+.messagebarinput-home {
+  position: fixed;
+  bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: transparent;
 }
 
 #link {
@@ -70,4 +87,129 @@ input[type="submit"]:hover {
   top: 30px;
   left: 15px;
   width: 1.5rem;
+}
+
+.title-home {
+  position: fixed;
+  top: 2rem;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.title-home-mobile {
+  position: fixed;
+  top: 2rem;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.sidebar {
+  background-color: #1e1e1e;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  padding: 5rem;
+  height: 100%;
+}
+
+.sidebar-mobile {
+  background-color: #1e1e1e;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  padding: 3rem;
+  height: 100%;
+}
+
+.messagebar {
+  background-color: #191919;
+  position: fixed;
+  bottom: 0px;
+  left: 10rem;
+  padding: 3rem;
+  width: 100%;
+  z-index: 0;
+}
+
+.messagebar-mobile {
+  background-color: #191919;
+  position: fixed;
+  bottom: 0px;
+  left: 6rem;
+  padding: 3rem;
+  width: 100%;
+  z-index: 0;
+}
+
+#textarea-wrapper {
+  background-color: transparent;
+  position: fixed;
+  left: 12rem;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#textarea-wrapper-mobile {
+  background-color: transparent;
+  position: fixed;
+  left: 7rem;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+#messagebarinput-home {
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: #e0e0e0;
+}
+
+#messagebarinput-home:focus {
+  outline: none;
+  background-color: #1e1e1e;
+}
+
+#message-send {
+  background-color: transparent;
+}
+
+#send-button-img {
+  z-index: 2;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#send-button {
+  z-index: 1;
+  user-select: none;
+  position: fixed;
+  padding-left: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#send-button:focus {
+  border: none;
+  outline: none;
+}
+
+#username-home {
+  position: fixed;
+  bottom: 2.5rem;
+  left: 2.5rem;
+  background-color: transparent;
 }
